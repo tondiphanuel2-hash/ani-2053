@@ -1,0 +1,5 @@
+Ce que la coquille me donne : elle crée la fenêtre et la cible de rendu, gère la boucle d’images et les événements, efface le fond avec la couleur configurée et présente l’image après OnRender. Elle applique aussi le plafond de dt configuré.
+
+Ce qu'elle me prend : elle décide de l’ordre et du fonctionnement de la boucle, notamment quand les événements sont traités et quand Clear et Display sont appelés. Je contrôle moins directement le cycle de vie de la fenêtre et de la cible.
+
+Quand je choisirais la main : je choisirais la boucle écrite à la main si je devais contrôler précisément le traitement des événements, l’ordre des étapes ou la création de la fenêtre et de la cible. Cela demande d’écrire et de maintenir ces étapes moi-même.

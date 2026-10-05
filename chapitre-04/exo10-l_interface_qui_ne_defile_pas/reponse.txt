@@ -1,0 +1,5 @@
+Ce que fait la barre sans ResetView : elle défile avec le monde et peut finir partiellement ou entièrement hors de la fenêtre.
+
+Pourquoi : la vue est un état du renderer. Après SetView, elle s’applique à tous les dessins suivants, y compris la barre et le texte de l’interface.
+
+Ou placer l'appel : après avoir dessiné le monde avec sa vue, puis avant de dessiner la barre et le texte, afin que l’interface utilise la vue par défaut de la fenêtre.

@@ -1,0 +1,6 @@
+reset : oui, centre_x : 500, barre_x : 0
+reset : oui, centre_x : 600, barre_x : 0
+reset : oui, centre_x : 700, barre_x : 0
+reset : non, centre_x : 500, barre_x : -100
+reset : non, centre_x : 600, barre_x : -200
+reset : non, centre_x : 700, barre_x : -300
